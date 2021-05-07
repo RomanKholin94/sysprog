@@ -277,7 +277,7 @@ main(int argc, char *argv[])
 		handle_error("swapcontext");
     }
     for (int i = 0; i < n; ++i) {
-        printf("working times of corutine %d: %lld, number of chenges: %d\n", i, all_times[i], number_of_chenges[i]);
+        printf("working times of corutine %d: %lldus, number of chenges: %d\n", i, all_times[i], number_of_chenges[i]);
     }
 
     printf("starting merging\n");
